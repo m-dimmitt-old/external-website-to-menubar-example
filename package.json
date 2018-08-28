@@ -1,0 +1,31 @@
+{
+  "name": "overcast-electron-app-mac",
+  "version": "1.0.0",
+  "description": "A simple overcast.fm podcast menubar app for mac",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^2.0.8",
+    "electron-packager": "^12.1.1",
+    "menubar": "^5.2.3"
+  },
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . --out=example --platform=darwin --arch=x64 --icon=./assets/icon.icns --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esthor/overcast-electron-app-mac.git"
+  },
+  "keywords": [
+    "desktop",
+    "menubar",
+    "electron"
+  ],
+  "author": "esthor, michaeldimmitt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esthor/overcast-electron-app-mac/issues"
+  },
+  "homepage": "https://github.com/esthor/overcast-electron-app-mac#readme"
+}
