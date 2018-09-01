@@ -2,7 +2,7 @@
   "name": "overcast-electron-app-mac",
   "version": "1.0.0",
   "description": "A simple overcast.fm podcast menubar app for mac",
-  "main": "main.js",
+  "main": "src/main.js",
   "dependencies": {},
   "devDependencies": {
     "electron": "^2.0.8",
